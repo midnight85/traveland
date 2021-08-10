@@ -1,0 +1,50 @@
+.wrapper {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+}
+.container {
+    // max-width: 1140px;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.logo {
+}
+.btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    background: #c9453b;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background 0.3s ease;
+    @media screen and (min-width: 992px) {
+        &:hover {
+            background: #92312a;
+        }
+    }
+}
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+.title {
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 140%;
+    color: #000000;
+}
