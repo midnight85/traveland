@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Traveland</title>
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -16,26 +17,26 @@
             <div class="container">
                 <div class="header__menu menu">
                     <img class="logo" src="img/logo.svg" alt="logo">
-                    <div class="menu__icon">
+                    <div class="menu-icon">
                         <span></span>
                     </div>
-                    <nav class="menu__body">
-                        <ul class="menu__list">
-                            <li><a class="menu__link" href="#">Home</a></li>
-                            <li><a class="menu__link" href="#">Location</a></li>
-                            <li><a class="menu__link" href="#">Blog</a></li>
-                            <li><a class="menu__link" href="#">About</a></li>
-                            <li><a class="menu__link" href="#">Contact</a></li>
+                    <nav class="menu-body">
+                        <ul class="menu-list">
+                            <li><a class="menu-link" href="#">Home</a></li>
+                            <li><a class="menu-link" href="#">Location</a></li>
+                            <li><a class="menu-link" href="#">Blog</a></li>
+                            <li><a class="menu-link" href="#">About</a></li>
+                            <li><a class="menu-link" href="#">Contact</a></li>
                         </ul>
                     </nav>
-                    <a class="menu__btn btn" href="#">Booking now</a>
+                    <a class="menu-btn btn" href="#">Booking now</a>
                 </div>
                 <!-- /.header__menu -->
             </div>
             <!-- /.container -->
         </header>
         <main class="page">
-            <div class="hero">
+            <section class="hero">
                 <div class="container">
                     <div class="hero__wrapper">
                         <div class="hero__content">
@@ -47,12 +48,291 @@
                         <!-- /.hero__content -->
                     </div>
                 </div>
-            </div>
+            </section>
+
             <!-- /.hero -->
-            
+            <section class="location">
+                <div class="container">
+                    <div class="location__header">
+                        <h2 class="location__title title">Popular Location</h2>
+                        <!-- /.location__title -->
+                        <div class="location__text text">
+                            For every one of us, travel came first. We’ve spent years living as nomads, pioneers, and
+                            voyagers— from island hopping in the
+                        </div>
+                        <!-- /.location__text -->
+                    </div>
+                    <!-- /.location__header -->
+                    <div class="location__items">
+                        <div class="location__column">
+                            <div class="location__item">
+                                <div class="item-img"><img src="img/location-1.jpg" alt="item-img"></div>
+                                <div class="item-descr">
+                                    <div class="item-name title">Istanbul, Turkey</div>
+                                    <p class="item-text text">Istanbul is a major city in Turkey that straddles Europe.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- /.location__item -->
+                        </div>
+                        <!-- /.location__column -->
+                        <div class="location__column">
+                            <div class="location__item">
+                                <div class="item-img"><img src="img/location-2.jpg" alt="item-img"></div>
+                                <div class="item-descr">
+                                    <div class="item-name title">Kuala Lumpur, malaysia</div>
+                                    <p class="item-text text">A 272-step long trek leads you to this century.</p>
+                                </div>
+                            </div>
+                            <!-- /.location__item -->
+                        </div>
+                        <!-- /.location__column -->
+                        <div class="location__column">
+                            <div class="location__item">
+                                <div class="item-img"><img src="img/location-3.jpg" alt="item-img"></div>
+                                <div class="item-descr">
+                                    <div class="item-name title">Seoul, South Korea</div>
+                                    <p class="item-text text">South Korea officially the Republic of Korea is a country
+                                        in
+                                        East
+                                        Asia.</p>
+                                </div>
+                            </div>
+                            <!-- /.location__item -->
+                        </div>
+                        <!-- /.location__column -->
+                    </div>
+                    <!-- /.location__items -->
+                </div>
+            </section>
+            <!-- /.location -->
+            <section class="offers">
+                <div class="offers__container">
+                    <div class="offers__header">
+                        <h2 class="offers__title title">Special Offers</h2>
+                        <!-- /.offers__title -->
+                        <div class="offers__text text">
+                            With the New Year comes a refreshing sense of wanderlust, a longing in our souls to escape
+                            to warmer climates </div>
+                        <!-- /.offers__text -->
+                    </div>
+                    <!-- /.offers__header -->
+
+                    <div class="swiper-container offers__slider">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-1.jpg" alt="">
+                                    <div class="slide-name title">Statue of Liberty </div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">New  York</div>
+                                        <div class="slide-rating text">4.8</div>
+                                    </div>
+                                    <div class="slide-days text">4 Day 5 Nights</div>
+                                    <div class="slide-price text"><span>$450</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-2.jpg" alt="">
+                                    <div class="slide-name title">The Great Wall</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">China </div>
+                                        <div class="slide-rating text">4.9</div>
+                                    </div>
+                                    <div class="slide-days text">7 Day 8 Nights</div>
+                                    <div class="slide-price text"><span>$850</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-3.jpg" alt="">
+                                    <div class="slide-name title">Dizin</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">Iran</div>
+                                        <div class="slide-rating text">4.6</div>
+                                    </div>
+                                    <div class="slide-days text">5 Day 6 Nights</div>
+                                    <div class="slide-price text"><span>$550</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-4.jpg" alt="">
+                                    <div class="slide-name title">Sajek Valley</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">Bangladesh</div>
+                                        <div class="slide-rating text">4.7</div>
+                                    </div>
+                                    <div class="slide-days text">3 Day 4 Nights</div>
+                                    <div class="slide-price text"><span>$440</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-2.jpg" alt="">
+                                    <div class="slide-name title">The Great Wall</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">China </div>
+                                        <div class="slide-rating text">4.9</div>
+                                    </div>
+                                    <div class="slide-days text">7 Day 8 Nights</div>
+                                    <div class="slide-price text"><span>$850</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-5.jpg" alt="">
+                                    <div class="slide-name title">Osaka Castle</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">Japan</div>
+                                        <div class="slide-rating text">4.7</div>
+                                    </div>
+                                    <div class="slide-days text">4 Day 5 Nights</div>
+                                    <div class="slide-price text"><span>$700</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-1.jpg" alt="">
+                                    <div class="slide-name title">Statue of Liberty </div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">New  York</div>
+                                        <div class="slide-rating text">4.8</div>
+                                    </div>
+                                    <div class="slide-days text">4 Day 5 Nights</div>
+                                    <div class="slide-price text"><span>$450</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                                                   <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-3.jpg" alt="">
+                                    <div class="slide-name title">Dizin</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">Iran</div>
+                                        <div class="slide-rating text">4.6</div>
+                                    </div>
+                                    <div class="slide-days text">5 Day 6 Nights</div>
+                                    <div class="slide-price text"><span>$550</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-5.jpg" alt="">
+                                    <div class="slide-name title">Osaka Castle</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">Japan</div>
+                                        <div class="slide-rating text">4.7</div>
+                                    </div>
+                                    <div class="slide-days text">4 Day 5 Nights</div>
+                                    <div class="slide-price text"><span>$700</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-4.jpg" alt="">
+                                    <div class="slide-name title">Sajek Valley</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">Bangladesh</div>
+                                        <div class="slide-rating text">4.7</div>
+                                    </div>
+                                    <div class="slide-days text">3 Day 4 Nights</div>
+                                    <div class="slide-price text"><span>$440</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-5.jpg" alt="">
+                                    <div class="slide-name title">Osaka Castle</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">Japan</div>
+                                        <div class="slide-rating text">4.7</div>
+                                    </div>
+                                    <div class="slide-days text">4 Day 5 Nights</div>
+                                    <div class="slide-price text"><span>$700</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                        
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-2.jpg" alt="">
+                                    <div class="slide-name title">The Great Wall</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">China </div>
+                                        <div class="slide-rating text">4.9</div>
+                                    </div>
+                                    <div class="slide-days text">7 Day 8 Nights</div>
+                                    <div class="slide-price text"><span>$850</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-3.jpg" alt="">
+                                    <div class="slide-name title">Dizin</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">Iran</div>
+                                        <div class="slide-rating text">4.6</div>
+                                    </div>
+                                    <div class="slide-days text">5 Day 6 Nights</div>
+                                    <div class="slide-price text"><span>$550</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-1.jpg" alt="">
+                                    <div class="slide-name title">Statue of Liberty </div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">New  York</div>
+                                        <div class="slide-rating text">4.8</div>
+                                    </div>
+                                    <div class="slide-days text">4 Day 5 Nights</div>
+                                    <div class="slide-price text"><span>$450</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="slide-item">
+                                    <img class="slide-img" src="img/offers/of-4.jpg" alt="">
+                                    <div class="slide-name title">Sajek Valley</div>
+                                    <div class="slide-details">
+                                        <div class="slide-loc text">Bangladesh</div>
+                                        <div class="slide-rating text">4.7</div>
+                                    </div>
+                                    <div class="slide-days text">3 Day 4 Nights</div>
+                                    <div class="slide-price text"><span>$440</span> / person</div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-slide -->
+                           
+                        </div>
+                        <!-- /.swiper-wrapper -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.offers -->
         </main>
-        
+
     </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
