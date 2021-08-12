@@ -190,8 +190,8 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
   margin-bottom: 70px;
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("/img/header-bg.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/header-bg.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../img/header-bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/header-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -380,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
 .swiper-button-prev {
   height: 12px;
   width: 14px;
-  background-image: url("/img/offers/arrow-prev.svg") !important;
+  background-image: url("../img/offers/arrow-prev.svg") !important;
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 .swiper-button-next {
   height: 12px;
   width: 14px;
-  background-image: url("/img/offers/arrow-next.svg");
+  background-image: url("../img/offers/arrow-next.svg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -452,7 +452,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slide-loc::before {
-  content: url("/img/offers/loc.svg");
+  content: url("../img/offers/loc.svg");
   margin-right: 10px;
 }
 
@@ -462,7 +462,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slide-rating::before {
-  content: url("/img/offers/star.svg");
+  content: url("../img/offers/star.svg");
   margin-right: 10px;
 }
 

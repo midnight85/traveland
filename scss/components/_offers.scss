@@ -51,7 +51,7 @@
     &-button-prev {
         height: 12px;
         width: 14px;
-        background-image: url("/img/offers/arrow-prev.svg") !important;
+        background-image: url("../img/offers/arrow-prev.svg") !important;
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position: center;
@@ -64,7 +64,7 @@
     &-button-next {
         height: 12px;
         width: 14px;
-        background-image: url("/img/offers/arrow-next.svg");
+        background-image: url("../img/offers/arrow-next.svg");
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position: center;
@@ -109,7 +109,7 @@
         line-height: 150%;
         margin-right: 50px;
         &::before {
-            content: url("/img/offers/loc.svg");
+            content: url("../img/offers/loc.svg");
             margin-right: 10px;
         }
     }
@@ -117,7 +117,7 @@
         font-size: 18px;
         line-height: 150%;
         &::before {
-            content: url("/img/offers/star.svg");
+            content: url("../img/offers/star.svg");
             margin-right: 10px;
         }
     }
