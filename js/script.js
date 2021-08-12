@@ -18,10 +18,13 @@ const swiper = new Swiper(".swiper-container", {
     slidesPerGroup: 1,
     slidesPerGroupSkip: 1,
     spaceBetween: 0,
+
     loop: true,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
+        dynamicBullets:true,
+        
     },
 
     navigation: {
